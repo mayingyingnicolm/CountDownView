@@ -166,6 +166,14 @@ public class CountDownView extends FrameLayout {
         this.addView(view);
     }
 
+    public void setTvCountTime(TextView tvCountTime) {
+        this.tvCountTime = tvCountTime;
+    }
+
+    public void setTvTitle(TextView tvTitle) {
+        this.tvTitle = tvTitle;
+    }
+
     public void showTitle(Boolean show) {
         if (show) {
             tvTitle.setVisibility(VISIBLE);
